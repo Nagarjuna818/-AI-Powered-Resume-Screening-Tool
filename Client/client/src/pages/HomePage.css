@@ -1,0 +1,46 @@
+
+.left-stack,
+.right-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* adjust spacing as needed */
+}
+
+.right-stack .card {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+input[type="text"]{
+  border: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f7fa;
+  padding: 40px 0;
+}
+.home-container {
+  display: grid;
+  grid-template-columns: 450px 450px; /* fixed width for both columns */
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.home-container > .left-stack,
+.home-container > .right-stack {
+  width: 550px;
+}

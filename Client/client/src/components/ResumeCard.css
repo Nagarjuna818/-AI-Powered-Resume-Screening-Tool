@@ -1,0 +1,23 @@
+.card {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+.resume-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}

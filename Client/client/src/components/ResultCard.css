@@ -1,0 +1,102 @@
+.card {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+  .score-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top:50px;
+  }
+  
+  .score-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: #f5f5f5;
+  }
+  
+  .score-circle p {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .card h4 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    align-self: flex-start;
+    color: #333;
+  }
+  
+  .card strong {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    margin: 6px 0 12px;
+    align-self: flex-start;
+  }
+  
+  .card li {
+    color: #444;
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+
+  .score-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adds the gap at the top */
+    margin-bottom: 20px;
+  }
+  
+  .analyze-button {
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analyze-button:hover {
+    background-color: #0056b3;
+  }
