@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ResumeCard.css';
 
 function ResumeCard({ file, onFileChange, onRemove, resumeText, setResumeText }) {
