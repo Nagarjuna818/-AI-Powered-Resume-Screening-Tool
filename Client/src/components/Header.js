@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '/Users/nagarjuna/Downloads/AI_Project/AI_Resume_Screener/Client/client/src/components/img.png';
+import logo from './img.png';
 import './Header.css';
 
 
