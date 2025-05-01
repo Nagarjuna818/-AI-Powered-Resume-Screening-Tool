@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ResultScore from './ResultScore';
 
 import './ResultCard.css';
@@ -16,8 +16,8 @@ function ResultCard({ score, matchedKeywords = [], missingKeywords = [], onAnaly
 
             <h4>Keywords</h4>
             <div> 
-                <strong>Matched Keywords</strong>
-                {matchedKeywords.length > 0 ? (
+            <h4><span role="img" aria-label="check">✅</span> Matched Keywords</h4>
+                    {matchedKeywords.length > 0 ? (
                     <ul>
                         {matchedKeywords.map((word, idx) => <li key={idx}>{word}</li>)}
                     </ul>
@@ -26,7 +26,7 @@ function ResultCard({ score, matchedKeywords = [], missingKeywords = [], onAnaly
                 )}
             </div>
             <div>
-                <strong>Missing Keywords</strong>
+            <h4><span role="img" aria-label="cross">❌</span> Missing Keywords</h4>
                 {missingKeywords.length > 0 ? (
                     <ul>
                         {missingKeywords.map((word, idx) => <li key={idx}>{word}</li>)}
