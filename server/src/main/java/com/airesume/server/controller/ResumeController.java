@@ -11,7 +11,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*") // Adjust the origin as needed
+@CrossOrigin(origins = "https://Nagarjuna818.github.io") // Adjust the origin as needed
 
 public class ResumeController {
 
@@ -52,4 +52,7 @@ public class ResumeController {
         result.put("missingKeywords", missing);
         return  ResponseEntity.ok(result);
     }
+
 }
+
+
