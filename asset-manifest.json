@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/-AI-Powered-Resume-Screening-Tool/static/css/main.90ba1d97.chunk.css",
-    "main.js": "/-AI-Powered-Resume-Screening-Tool/static/js/main.b586109c.chunk.js",
-    "main.js.map": "/-AI-Powered-Resume-Screening-Tool/static/js/main.b586109c.chunk.js.map",
+    "main.js": "/-AI-Powered-Resume-Screening-Tool/static/js/main.d74b98c8.chunk.js",
+    "main.js.map": "/-AI-Powered-Resume-Screening-Tool/static/js/main.d74b98c8.chunk.js.map",
     "runtime~main.js": "/-AI-Powered-Resume-Screening-Tool/static/js/runtime~main.d8459714.js",
     "runtime~main.js.map": "/-AI-Powered-Resume-Screening-Tool/static/js/runtime~main.d8459714.js.map",
     "static/js/2.9ed52326.chunk.js": "/-AI-Powered-Resume-Screening-Tool/static/js/2.9ed52326.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bb0829b5.chunk.js": "/-AI-Powered-Resume-Screening-Tool/static/js/3.bb0829b5.chunk.js",
     "static/js/3.bb0829b5.chunk.js.map": "/-AI-Powered-Resume-Screening-Tool/static/js/3.bb0829b5.chunk.js.map",
     "index.html": "/-AI-Powered-Resume-Screening-Tool/index.html",
-    "precache-manifest.e3b4532ce01e23cad3a21d92d73cec8d.js": "/-AI-Powered-Resume-Screening-Tool/precache-manifest.e3b4532ce01e23cad3a21d92d73cec8d.js",
+    "precache-manifest.052b07d9ffbbcbae812cd68e495ca227.js": "/-AI-Powered-Resume-Screening-Tool/precache-manifest.052b07d9ffbbcbae812cd68e495ca227.js",
     "service-worker.js": "/-AI-Powered-Resume-Screening-Tool/service-worker.js",
     "static/css/main.90ba1d97.chunk.css.map": "/-AI-Powered-Resume-Screening-Tool/static/css/main.90ba1d97.chunk.css.map",
     "static/media/img.png": "/-AI-Powered-Resume-Screening-Tool/static/media/img.4e73f56c.png"
