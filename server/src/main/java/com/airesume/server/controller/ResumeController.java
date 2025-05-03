@@ -11,7 +11,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust the origin as needed
+@CrossOrigin(origins = "*") // Adjust the origin as needed
 
 public class ResumeController {
 
@@ -47,7 +47,7 @@ public class ResumeController {
 
         Map<String, Object> result = new HashMap<>();
         result.put("score", score);
-        
+
         result.put("matchedKeywords", matched);
         result.put("missingKeywords", missing);
         return  ResponseEntity.ok(result);
